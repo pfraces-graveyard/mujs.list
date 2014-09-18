@@ -1,4 +1,4 @@
 list
 ====
 
-Collection of common utilities for list-related tasks
+Collection of common list-related utilities
