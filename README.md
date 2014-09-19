@@ -1,7 +1,7 @@
 list
 ====
 
-Collection of common list-related utilities
+Collection of basic list-related utilities
 
 API
 ---
