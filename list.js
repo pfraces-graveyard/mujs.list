@@ -143,7 +143,7 @@ define('mu.list.removeAt', function (require) {
   return removeAt;
 });
 
-define('mu.list', function (require) {
+define('mu.list.remove', function (require) {
   'use strict';
 
   var isDefined = require('mu.is.defined'),
@@ -155,6 +155,8 @@ define('mu.list', function (require) {
     if (isDefined(index)) { removeAt(list, index); }
     return index;
   };
+  
+  return remove;
 });
   
 define('mu.list', function (require) {
