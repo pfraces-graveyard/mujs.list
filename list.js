@@ -2,7 +2,8 @@ define('mu.list.each', function (require) {
   'use strict';
 
   var isDefined = require('mu.is.defined'),
-      isArray   = require('mu.is.array');
+      isArray   = require('mu.is.array'),
+      isScalar  = require('mu.is.scalar');
 
   var iterateArray = function (list, func) {
     for (var index = 0, len = list.length; index < len; index++) {
@@ -19,6 +20,7 @@ define('mu.list.each', function (require) {
   };
   
   var each = function (list, func) {
+    if (isScalar(list)) { return; }
     if (isArray(list)) { return iterateArray(list, func); }
     return iterateObject(list, func);
   };

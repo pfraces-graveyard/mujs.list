@@ -1,7 +1,7 @@
 {
   "name": "mu.list",
   "description": "Collection of basic list-related utilities",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "list.js",
   "dependencies": {
     "define": "*",
