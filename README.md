@@ -34,7 +34,7 @@ each({ a: 1, b: 2, c: 3 }, function (item, index) {
   c 3
 ```
 
-`each` can be used to find sequentially. If at any iteration the callback returns a non-`undefined`
+`each` can be used to find sequentially. At any iteration in which the callback returns a non-`undefined`
 value, the iteration is broken and `each` returns that value
 
 ```js
