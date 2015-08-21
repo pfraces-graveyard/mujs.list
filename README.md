@@ -6,7 +6,7 @@ Collection of basic list-related utilities
 API
 ---
 
-### each
+### `each(list, fn (item, index) {})
 
 Iterate over arrays or objects
 
@@ -63,9 +63,18 @@ Creates an array of values by running each element in an array or object through
 
 Creates a list of those items from the provided list whose value applied to the callback is truthy
 
-### reduce
+### `reduce(list, acc, fn (acc, item, index) {})`
 
 Reduces a list to a value accumulated by running each element through a supplied function
+
+```js
+var sum = function (a, b) { return a + b; };
+console.log(reduce([1, 2, 3], 0, sum));
+```
+
+```
+> 6
+```
 
 ### indexOf
 
