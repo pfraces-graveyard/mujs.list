@@ -6,7 +6,7 @@ Collection of basic list-related utilities
 API
 ---
 
-### `each(list, fn (item, index) {})
+### `each(list, fn (item, index) {})`
 
 Iterate over arrays or objects
 
