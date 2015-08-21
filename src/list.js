@@ -160,18 +160,3 @@ define('mu.list.remove', function (require) {
   
   return remove;
 });
-  
-define('mu.list', function (require) {
-  'use strict';
-
-  return {
-    each:     require('mu.list.each'),
-    map:      require('mu.list.map'),
-    filter:   require('mu.list.filter'),
-    reduce:   require('mu.list.reduce'),
-    indexOf:  require('mu.list.indexOf'),
-    contains: require('mu.list.contains'),
-    removeAt: require('mu.list.removeAt'),
-    remove:   require('mu.list.remove')
-  };
-});
