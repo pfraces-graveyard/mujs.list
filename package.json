@@ -1,0 +1,6 @@
+{
+  "pkgDependencies": {
+    "mujs/define": "*",
+    "mujs/is": "*"
+  }
+}
